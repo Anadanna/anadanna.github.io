@@ -1,10 +1,41 @@
-.inhalt{
-    margin-top: 80px;
+
+/*Top by "Impressum" and "Kontakt"*/
+.inhalt {
+    margin-top: 100px;
 }
 
-.profilbild_image{
+/*Background-color all the Sites*/
+body {
+    background-color: rgb(205, 218, 171);
+}
+
+/*Unterstrich navigation*/
+.navbar-inverse {
+    background-color: rgb (77, 90, 44);
+    border-color: rgb (77, 90, 44);
+}
+
+
+/*Startseite Articel img*/
+.artikelbild {
+   border-color: rgb(121,141,69);
+    border-style: solid;
+    border-width: medium;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+ 
+
+/*
+.artikelbild img {
+    border-style: outset;
+}
+*/
+
+/*Image "Über uns"*/
+.profilbild_image {
     height: 300px;
-/*    width: 60%;*/
+    /*    width: 60%;*/
     background-color: black;
     border-color: blue;
     border-style: groove;
@@ -13,60 +44,77 @@
     margin-bottom: 30px;
 }
 
-    
-.small{
+/*
+.small {
     text-align: left;
     font-size: 30px;
     font-family: 'arial';
     color: #e87511;
 }
+*/
 
-.indien_image {
-   border-color:#09942c;
-    border-style:double;
+/*Image in all the Article*/
+.article_image {
+    border-color: blue;
+    border-style: double;
     border-width: medium;
     border-radius: 10px;
     margin-bottom: 5px;
     margin-top: 10px;
 }
 
+/*Image in Artikel about Angkor*/
+/*
 .Angkor_image {
-   border-color:#09942c;
-    border-style:double;
+    border-color: black;
+    border-style: dashed;
     border-width: medium;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 100px;
+    margin-bottom: 200px;
 }
+*/
 
+/*Title img in Article*/
 .artikel_metadata {
+    color: beige;
+}
+
+/*Signature img in Article*/
+.monkey {
     color: blue;
-    
 }
 
-.monkey{
-    color: blue;
+
+/*Ueberschrift Inside article "Unsere Reise nach Cambodia"*/
+.h1 {
+    margin-top: 100px;
+    color: rgb(61,65,51);
 }
 
-.start{
-    margin: 0px;
-    font-size: 25px;
-}
 
-.ueberschrift{
+/*Title in Articles "Angkor Wat" "Hampies Monkey"*/
+.ueberschrift {
     font-size: 20px;
     height: 50px;
 }
 
-.video{
+/*margin-top/bottom by video*/
+.video {
     margin-bottom: 40px;
     margin-top: 40px;
 }
 
-.artikelbild{
-    margin-top: 80px;
+.start {
+    margin: 0px;
+    font-size: 25px;
 }
 
-.lea{
-    margin-top: 2000px;
+.fusszeile {
+  clear: both;
+    margin-top: 4000px;
+    margin-left: 500px;
+  background-color:black;
+  border-top:200px solid green;
 }
+
 
